@@ -1,0 +1,5 @@
+export * from './createAuthor'
+export * from './deleteAuthor'
+export * from './getAuthorDetail'
+export * from './getAuthorsList'
+export * from './updateAuthor'

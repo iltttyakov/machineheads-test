@@ -1,0 +1,28 @@
+export const TAG_ACTIONS_PREFIX = 'tags/'
+
+// Загрузка списка тегов
+export const GET_LIST_REQUEST = `${TAG_ACTIONS_PREFIX}LIST_REQUEST`
+export const GET_LIST_SUCCESS = `${TAG_ACTIONS_PREFIX}LIST_SUCCESS`
+export const GET_LIST_FAILURE = `${TAG_ACTIONS_PREFIX}LIST_FAILURE`
+
+// Создание тега
+export const CREATE_REQUEST = `${TAG_ACTIONS_PREFIX}CREATE_REQUEST`
+export const CREATE_SUCCESS = `${TAG_ACTIONS_PREFIX}CREATE_SUCCESS`
+export const CREATE_FAILURE = `${TAG_ACTIONS_PREFIX}CREATE_FAILURE`
+export const CREATE_MODAL_OPEN = `${TAG_ACTIONS_PREFIX}CREATE_MODAL_OPEN`
+
+// Редактирование тега
+export const UPDATE_REQUEST = `${TAG_ACTIONS_PREFIX}UPDATE_REQUEST`
+export const UPDATE_SUCCESS = `${TAG_ACTIONS_PREFIX}UPDATE_SUCCESS`
+export const UPDATE_FAILURE = `${TAG_ACTIONS_PREFIX}UPDATE_FAILURE`
+
+// Удаление тега
+export const DELETE_REQUEST = `${TAG_ACTIONS_PREFIX}DELETE_REQUEST`
+export const DELETE_SUCCESS = `${TAG_ACTIONS_PREFIX}DELETE_SUCCESS`
+export const DELETE_FAILURE = `${TAG_ACTIONS_PREFIX}DELETE_FAILURE`
+
+// Установка текущего редактируемого тега (для модалки)
+export const SET_EDITING_TAG = `${TAG_ACTIONS_PREFIX}SET_EDITING_TAG`
+
+// Установка текущего удаляемого тега (для модалки)
+export const SET_DELETING_TAG = `${TAG_ACTIONS_PREFIX}SET_DELETING_TAG`
